@@ -1,0 +1,19 @@
+[{
+    "order name": "sodas",
+    "order id": 38,
+    "price": 80,
+    "drinks": ["Pepsi max", "Sprite", "Coca cola"],
+    "order extras": "fries"
+},
+    {
+        "order name": "burger menu",
+        "order id": 59,
+        "price": 190,
+        "drinks": ["Pepsi max", "Fanta"],
+        "order extras": ["fries", "sweet potato fries", "ketchup"]
+    }
+]
+
+
+
+
