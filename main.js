@@ -35,8 +35,11 @@ fetch('https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0a
                 }
                 const yearAndMovies = getNewerMovies([i], ['year'] > 2014);
                 console.log(yearAndMovies);
+                document.querySelector("button").appendChild(button);
         })
     });
+
+//Exercise 6 - level 3 create input for people to search for movie.
 
 
 
