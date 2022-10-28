@@ -26,18 +26,17 @@ fetch('https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0a
         }
 
 //Exercise 5 - level 2 create button.
-        const button = document.querySelector('button')
-        console.log(button)
+        const button = document.querySelector('button');
+        button.innerText = "Get newer movies";
         button.addEventListener('click', function() {
-                function getNewrMovies(newMovies){
-                return ['year'] > 2014 + movies
+                function getNewerMovies(movies, year) {
+                const resultOfMovies = ${year} ${movies};
+                        return resultOfMovies;
                 }
+                const yearAndMovies = getNewerMovies([i], ['year'] > 2014);
+                console.log(yearAndMovies);
         })
     });
-
-
-
-
 
 
 
